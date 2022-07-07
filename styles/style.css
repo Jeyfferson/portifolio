@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arima&family=Roboto+Slab:wght@900&family=Roboto:ital,wght@1,900&display=swap');
+
 body
 {
      background: #f6f5f5;
@@ -40,4 +43,33 @@ nav
      background-color: #ffffff;
      box-shadow: 2px 2px 12px rgba(0,0,0,0.8);
      padding: 0px 5%;
+     font-family: 'Roboto', sans-serif;;
 }
+
+nav ul 
+{
+     display: flex; /*Organiza os itens do menu ficar lado a lado*/
+}
+
+nav ul li a
+{
+     margin: 15px;
+     font-family: arial, sans-serif;
+     color: #505050;
+     font-size: 15px;
+     font-weight: 700;
+}
+
+.logoo
+{
+     font-family: 'Roboto', sans-serif;
+     color: #000000;
+     font-size: 22px;
+}
+
+.list-active
+{
+     font-weight: bold;
+     color: #2a2a2a
+}
+
