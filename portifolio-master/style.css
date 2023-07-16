@@ -623,3 +623,8 @@ footer{
   box-shadow:  0 0.1rem 0.6rem #00000009;
 }
 
+.btn:hover {
+  background: #6a3199;
+  transition: 1.8s;
+
+}
